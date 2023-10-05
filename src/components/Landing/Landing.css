@@ -1,0 +1,66 @@
+.landing {
+  color: #fff;
+  flex: 1;
+  display: flex;
+}
+
+.landing .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .landing .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+
+  .text {
+    width: 300px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.gray {
+  color: #555;
+  line-height: 1.7;
+}
+
+.space {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  letter-spacing: 15px;
+}
+
+.explore {
+  background-color: #fff;
+  font-size: 30px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.explore:hover {
+  background-color: #bbb;
+}
