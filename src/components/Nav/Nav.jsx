@@ -11,7 +11,6 @@ function Nav() {
       <ul>
         <li>
           <a href="/">
-            
             <LuHome/>
             Home
           </a>
